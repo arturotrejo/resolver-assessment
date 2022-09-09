@@ -8,12 +8,12 @@ The repository is using Ruby, Capybara and Cucumber and, it's divided in 4 parts
 - The first part is the description of the tests that are implemented. 
 You can find the tests in the [assessment.feature](features/assessment.feature) file. This was made using Cucumber BDD.
 - The next part is the file where the cucumber step is defined. 
-The files for each Test can be found in the `features/step_definitions` folder.
+The files for each Test can be found in the [`features/step_definitions`](https://github.com/arturotrejo/resolver-assessment/tree/master/features/step_definitions) folder.
 - Then, we have the page object file. This file is where all the logic is implemented using Ruby and Capybara.
-The files are located in ``page_object/pages`` folder.
+The files are located in [``page_object/pages``](https://github.com/arturotrejo/resolver-assessment/tree/master/page_object/pages) folder.
 - Finally, we have the [assessment elements file](page_object/elements/assessment_elements.rb), here is where we define the locators that Capybara/Selenium uses. 
 Being CSS the default locator for Capybara, almost all the elements are CSS selectors.
-You can find this file in ```page_objects/elements``` folder.
+You can find this file in [```page_objects/elements```](https://github.com/arturotrejo/resolver-assessment/tree/master/page_object/elements) folder.
 
   
 ## Installation & Execution
@@ -56,4 +56,4 @@ bundle exec cucumber
 ```
 The terminal will show the results of the execution, 
 but you can also see the [execution results report](results/reports/Execution_Results.html)
-in the ````results/reports```` folder.
+in the [````results/reports````](https://github.com/arturotrejo/resolver-assessment/tree/master/results/reports) folder.
