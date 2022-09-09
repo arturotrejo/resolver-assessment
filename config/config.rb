@@ -1,0 +1,1 @@
+ASSESSMENT_URL = "file://#{__dir__}/../index.html"
