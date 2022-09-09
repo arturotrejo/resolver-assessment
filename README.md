@@ -16,7 +16,7 @@ Being CSS the default locator for Capybara, almost all the elements are CSS sele
 You can find this file in [```page_objects/elements```](https://github.com/arturotrejo/resolver-assessment/tree/master/page_object/elements) folder.
 
   
-## Installation & Execution
+## Installation
 In case you want to run the tests from your local machine, follow the next steps.
 
 Note: This guide is focused only for Linux based OS.
@@ -40,7 +40,7 @@ rbenv install 2.7.3
 ```bash
 gem install bundler
 ```
-### For execution...
+## Execution
 If you want to execute the tests in headless or headed mode, 
 just go to the [env.rb](features/support/env.rb) file and delete one of these lines:
 ````ruby
