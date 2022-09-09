@@ -1,0 +1,2 @@
+default: -f pretty -p html --publish-quiet
+html: -f html --out results/reports/Execution_Results.html
